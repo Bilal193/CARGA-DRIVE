@@ -1,0 +1,108 @@
+.container{
+    /* color: white */
+    /* margin-top: 70px; */
+    background-color: #080821;
+    height: 120vh;
+}
+.container>h1{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    padding-top: 5vh;
+}
+.innerContainer{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #150035;
+  /* box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75); */
+/* -webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75); */
+/* -moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75); */
+    padding: 30px 70px;
+    border-radius: 28px;
+/* margin-top: 30px; */
+    border: 1px solid #F46300;
+}
+.inputContainer{
+    justify-content: space-between;
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
+}
+.inputContainer>div{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.inputContainer>div>span{
+    color: #ffffff;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+.inputContainer>div>input{
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid orangered;
+    color: grey;
+    
+}
+.btn{
+    display:flex;
+    justify-content: center;
+}
+.btn>button{
+    background-color: #F46300;
+    color: #ffffff;
+    padding: 10px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.checkboxContainer{
+    margin: 20px 0;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+}
+.checkboxContainer>.check1, .checkboxContainer>.check2{
+    display: flex;
+    align-items: center;
+
+    width: 45%;
+    float: left;
+    /* border: 1px solid red; */
+    margin-left: 3%;
+}
+.checkboxContainer>.check2{
+    margin-left: 7%;
+}
+
+@media screen and (max-width: 768px){
+    .innerContainer{
+        padding: 0;
+        border: none;
+    }
+   .inputContainer>div{
+        width: 45%;
+        float: left;
+        margin-left: 3%;
+        /* border: 1px solid red; */
+    } 
+
+    .checkboxContainer>.check1, .checkboxContainer>.check2{
+        width: 100%;
+        margin-left: 10px;
+    }
+}
+.check1>span,.check2>span{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.innerContainer>h2{
+    color: #ffffff;
+}
+
