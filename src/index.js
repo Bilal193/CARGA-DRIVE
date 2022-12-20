@@ -19,6 +19,7 @@ import DriverDetail from './authScreens/DriverDetail';
 import DriversRequirement from './authScreens/DriversRequirement';
 import UploadClient from './authScreens/UploadClient';
 import UploadDriver from './authScreens/UploadDriver';
+import PostJob from './client/PostJob';
 
 
 const router = createBrowserRouter([
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
     path: "/terms",
     element: <DriversRequirement/>,
   },
+  {
+    path: "/client",
+    element:<PostJob/>
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
