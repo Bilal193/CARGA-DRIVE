@@ -1,0 +1,294 @@
+
+
+.dflex {
+    display: flex;
+    padding: auto 34px;
+    background-color: #080821;
+}
+
+.flex1 {
+    flex-grow: 1;
+    margin-left: 34px;
+
+}
+
+.flex2 {
+    flex-grow: 3;
+    /* background-color: antiquewhite; */
+}
+
+.sideContainer {
+    box-sizing: border-box;
+    width: 290px;
+    height: 666px;
+    background: #181C44;
+    border: 1px solid rgba(244, 99, 0, 0.75);
+    box-shadow: 0px 7.66492px 7.66492px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding-top: 66px;
+}
+
+.listItem {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.Icon {
+    width: 33px;
+    height: 33px;
+    background: #5071AA;
+    border-radius: 50%;
+    margin-left: 28px;
+}
+
+.art {
+    position: relative;
+    top: 24%;
+    left: 15%;
+}
+
+.title {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    margin-left: 16px;
+
+}
+
+.colflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+
+}
+
+.titleText {
+    box-sizing: border-box;
+    width: 913px;
+    height: 56px;
+    background: #080821;
+    border: 1px solid rgba(244, 99, 0, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.textarea {
+    box-sizing: border-box;
+    width: 913px;
+    height: 120px;
+    background: #080821;
+    border: 1px solid rgba(244, 99, 0, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    width: 913px;
+    margin-top: 20px;
+
+}
+
+.coldate {
+    width: 41.5%;
+    display: flex;
+
+}
+
+.dateflex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.datefield {
+    box-sizing: border-box;
+    padding: 16px;
+    gap: 13px;
+    width: 146px;
+    height: 56px;
+    background: #080821;
+    border: 1px solid rgba(244, 99, 0, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FFFFFF;
+
+    /* for cal icon */
+    background: url("/src/assets/images/Icons/calendar.svg") no-repeat;
+    background-position: top 50% right 10%;
+    background-size: 20px;
+
+
+}
+
+input[type='date'] {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.coldim {
+    width: 58.5%;
+    display: flex;
+    padding-left: 55px;
+    border-left: 1px solid #4B699E;
+
+}
+
+.dim {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+
+.dimfield {
+    box-sizing: border-box;
+    padding: 16px 28px;
+    gap: 10px;
+    width: 90px;
+    height: 56px;
+    background: #080821;
+    border: 1px solid rgba(244, 99, 0, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+
+
+}
+
+input[type='test'] {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.fileupload {
+    /* background-color: #d8bbbb; */
+    /* height: 100px; */
+    margin-top: 20px;
+    display: flex;
+}
+
+.cartype {
+    width: 913px;
+    height: 80px;
+    background: #181C44;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.calculated {
+    width: 80%;
+    height: 37px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #F46300;
+    padding-left: 25px;
+}
+
+.type {
+    width: 20%;
+    height: 37px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-align: end;
+    padding-right: 25px;
+
+}
+
+.buttonrow {
+    width: 913px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 79px
+}
+
+.button {
+    width: 137px;
+    height: 56px;
+    background: #F46300;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    width: 6px;
+    height: 17px;
+}
+
+.uploadfield {
+    box-sizing: border-box;
+    width: 378px;
+    height: 56px;
+    background: #080821;
+    border: 1px solid rgba(244, 99, 0, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+}
+
+.attachafile {
+    width: 81.5%;
+    height: 100%;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadicon {
+    width: 18.5%;
+    height: 100%;
+    border-left: 1px solid rgba(244, 99, 0, 0.7);
+    background: url("/src/assets/images/Icons/fileupload.svg") no-repeat center;
+}
+
+.isActive {
+    color: #F46300 !important;
+}
